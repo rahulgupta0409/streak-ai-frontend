@@ -1,0 +1,35 @@
+.App{
+  text-align: center;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(20, 20px);
+  grid-gap: 2px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.cell{
+  width: 20px;
+  height: 20px;
+  background-color: lightgray;
+  border: 1px solid gray;
+}
+.cell.start{
+  background-color: green;
+}
+.cell.end{
+  background-color: red;
+}
+.cell.path{
+  background-color: yellow;
+}
+button{
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  background-color: blue;
+}
